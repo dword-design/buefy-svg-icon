@@ -1,27 +1,27 @@
 <!-- TITLE/ -->
-# buefy-svg-icon
+# @dword-design/buefy-svg-icon
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
   <p>
-    <a href="https://npmjs.org/package/buefy-svg-icon">
+    <a href="https://npmjs.org/package/@dword-design/buefy-svg-icon">
       <img
-        src="https://img.shields.io/npm/v/buefy-svg-icon.svg"
+        src="https://img.shields.io/npm/v/@dword-design/buefy-svg-icon.svg"
         alt="npm version"
       >
-    </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/undefined/actions">
+    </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/buefy-svg-icon/actions">
       <img
-        src="https://github.com/undefined/workflows/build/badge.svg"
+        src="https://github.com/dword-design/buefy-svg-icon/workflows/build/badge.svg"
         alt="Build status"
       >
-    </a><a href="https://codecov.io/gh/undefined">
+    </a><a href="https://codecov.io/gh/dword-design/buefy-svg-icon">
       <img
-        src="https://codecov.io/gh/undefined/branch/master/graph/badge.svg"
+        src="https://codecov.io/gh/dword-design/buefy-svg-icon/branch/master/graph/badge.svg"
         alt="Coverage status"
       >
-    </a><a href="https://david-dm.org/undefined">
-      <img src="https://img.shields.io/david/undefined" alt="Dependency status">
-    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/undefined">
+    </a><a href="https://david-dm.org/dword-design/buefy-svg-icon">
+      <img src="https://img.shields.io/david/dword-design/buefy-svg-icon" alt="Dependency status">
+    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/buefy-svg-icon">
       <img
         src="https://gitpod.io/button/open-in-gitpod.svg"
         alt="Open in Gitpod"
@@ -107,7 +107,7 @@ Vue.use(BuefySvgIcon)
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/undefined/issues) or a [pull request](https://github.com/undefined/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/buefy-svg-icon/issues) or a [pull request](https://github.com/dword-design/buefy-svg-icon/pulls)! ⚙️
 
 ## Support
 
