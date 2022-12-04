@@ -5,6 +5,7 @@
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
   "main": "dist/index.ssr.js",
   "unpkg": "dist/index.min.js",
   "module": "dist/index.esm.js",
@@ -21,11 +22,11 @@
     "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.6.21",
+    "@dword-design/base": "^9.1.8",
     "@dword-design/base-config-component": "^1.1.37"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
