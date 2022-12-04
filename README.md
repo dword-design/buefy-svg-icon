@@ -58,17 +58,17 @@
 
 ```bash
 # npm
-$ npm install buefy-svg-icon
+$ npm install @dword-design/buefy-svg-icon
 
 # Yarn
-$ yarn add buefy-svg-icon
+$ yarn add @dword-design/buefy-svg-icon
 ```
 
 Add to local components:
 
 ```html
 <script>
-import BuefySvgIcon from 'buefy-svg-icon'
+import BuefySvgIcon from '@dword-design/buefy-svg-icon'
 
 export default {
   components: {
@@ -82,7 +82,7 @@ Or register as a global component:
 
 ```js
 import Vue from 'vue'
-import BuefySvgIcon from 'buefy-svg-icon'
+import BuefySvgIcon from '@dword-design/buefy-svg-icon'
 
 Vue.component('BuefySvgIcon', BuefySvgIcon)
 ```
@@ -91,7 +91,7 @@ Or register as a plugin:
 
 ```js
 import Vue from 'vue'
-import BuefySvgIcon from 'buefy-svg-icon'
+import BuefySvgIcon from '@dword-design/buefy-svg-icon'
 
 Vue.use(BuefySvgIcon)
 ```
@@ -100,7 +100,7 @@ Vue.use(BuefySvgIcon)
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-<script src="https://unpkg.com/buefy-svg-icon"></script>
+<script src="https://unpkg.com/@dword-design/buefy-svg-icon"></script>
 ```
 <!-- /INSTALL -->
 
