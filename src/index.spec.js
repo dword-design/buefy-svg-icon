@@ -36,7 +36,7 @@ export default tester(
     `,
       async test() {
         await this.page.goto('http://localhost:3000')
-        
+
         const icon = await this.page.waitForSelector('.icon')
         expect(await icon.screenshot()).toMatchImageSnapshot(this)
       },
