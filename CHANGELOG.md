@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.2...v1.0.3) (2023-02-15)
+
+
+### Bug Fixes
+
+* trigger release ([e853a08](https://github.com/dword-design/buefy-svg-icon/commit/e853a0899d44d027ab3c9eafcf5d7b34389558bb))
+
 ## [1.0.2](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.1...v1.0.2) (2023-02-15)
 
 
