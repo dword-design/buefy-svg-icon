@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.3...v1.0.4) (2023-02-15)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#14](https://github.com/dword-design/buefy-svg-icon/issues/14)) ([6aaa4dd](https://github.com/dword-design/buefy-svg-icon/commit/6aaa4ddcb1f3701c69d15db10bef9450d5379902))
+
 ## [1.0.3](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.2...v1.0.3) (2023-02-15)
 
 
