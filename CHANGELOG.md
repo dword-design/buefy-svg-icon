@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.8...v1.0.9) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.32 ([ab121d5](https://github.com/dword-design/buefy-svg-icon/commit/ab121d577b7c640f5fb0153a1ed5100fb6d46baa))
+
 ## [1.0.8](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.7...v1.0.8) (2023-03-19)
 
 
