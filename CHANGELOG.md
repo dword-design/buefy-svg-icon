@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.10...v1.0.11) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency @mdi/svg to v7.2.96 ([8fc83c1](https://github.com/dword-design/buefy-svg-icon/commit/8fc83c1cf3d2210e4023f947e1d08c563cb10faa))
+
 ## [1.0.10](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.9...v1.0.10) (2023-03-19)
 
 
