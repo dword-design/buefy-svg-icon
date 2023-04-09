@@ -12,28 +12,28 @@ export default tester(
     works: {
       files: {
         'plugins/buefy.js': endent`
-        import Vue from 'vue'
-        import Buefy from '${packageName`buefy`}'
-        import DragIcon from '${packageName`@mdi/svg`}/svg/drag.svg'
-        import 'buefy/dist/buefy.css'
+          import Vue from 'vue'
+          import Buefy from '${packageName`buefy`}'
+          import DragIcon from '${packageName`@mdi/svg`}/svg/drag.svg'
+          import 'buefy/dist/buefy.css'
 
-        Vue.use(Buefy, {
-          defaultIconComponent: 'self',
-          defaultIconPack: null,
-        })
+          Vue.use(Buefy, {
+            defaultIconComponent: 'self',
+            defaultIconPack: null,
+          })
 
-        Vue.component('DragIcon', DragIcon)
-      `,
+          Vue.component('DragIcon', DragIcon)
+        `,
       },
       nuxtConfig: {
         modules: [packageName`nuxt-svg-loader`],
         plugins: ['~/plugins/buefy.js'],
       },
       page: endent`
-      <template>
-        <b-icon icon="drag" />
-      </template>
-    `,
+        <template>
+          <b-icon icon="drag" />
+        </template>
+      `,
       async test() {
         await this.page.goto('http://localhost:3000')
 
@@ -45,5 +45,5 @@ export default tester(
   [
     testerPluginComponent({ componentPath: _require.resolve('./index.vue') }),
     testerPluginPuppeteer(),
-  ]
+  ],
 )
