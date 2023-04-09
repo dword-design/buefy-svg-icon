@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.19...v1.0.20) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.14 ([8ca37a3](https://github.com/dword-design/buefy-svg-icon/commit/8ca37a33f82dc2836e1d20957e6a331ef5e7edbf))
+
 ## [1.0.19](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.18...v1.0.19) (2023-04-09)
 
 
