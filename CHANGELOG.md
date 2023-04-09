@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.21...v1.0.22) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([45d2ac3](https://github.com/dword-design/buefy-svg-icon/commit/45d2ac34edcaeced4b20fee404fd6fd3bd82b588))
+
 ## [1.0.21](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.20...v1.0.21) (2023-04-09)
 
 
