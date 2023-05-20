@@ -81,25 +81,23 @@ export default {
 Or register as a global component:
 
 ```js
-import Vue from 'vue'
 import BuefySvgIcon from '@dword-design/buefy-svg-icon'
 
-Vue.component('BuefySvgIcon', BuefySvgIcon)
+app.component('BuefySvgIcon', BuefySvgIcon)
 ```
 
 Or register as a plugin:
 
 ```js
-import Vue from 'vue'
 import BuefySvgIcon from '@dword-design/buefy-svg-icon'
 
-Vue.use(BuefySvgIcon)
+app.use(BuefySvgIcon)
 ```
 
 ## Install via CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="https://unpkg.com/@dword-design/buefy-svg-icon"></script>
 ```
 <!-- /INSTALL -->
