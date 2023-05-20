@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.38...v2.0.0) (2023-05-20)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#61](https://github.com/dword-design/buefy-svg-icon/issues/61)) ([5bed5fb](https://github.com/dword-design/buefy-svg-icon/commit/5bed5fbed291b4411a80cf2c50654d0a5b48353b))
+
+
+### BREAKING CHANGES
+
+* drop node 14, vue 3
+
 ## [1.0.38](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.37...v1.0.38) (2023-04-28)
 
 
