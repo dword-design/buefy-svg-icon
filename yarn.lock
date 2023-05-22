@@ -1226,20 +1226,21 @@
     load-pkg "npm:@dword-design/load-pkg"
     param-case "^3.0.3"
 
-"@dword-design/base-config-component@^2.0.54":
-  version "2.0.55"
-  resolved "https://registry.yarnpkg.com/@dword-design/base-config-component/-/base-config-component-2.0.55.tgz#b3aaee7a1d086ff7e1292c884d0f8e20d6ea3d85"
-  integrity sha512-gedDJVZzApjZEGQTew0Z9pXrvaAzju01gqWv9P4xxPrbRZzrkefRpjxrX9HWIqaVKRRNs6edaktXRQ76Wz6sVQ==
+"@dword-design/base-config-component@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-component/-/base-config-component-3.0.0.tgz#0b45623bf090fd2efb6073ee97c650870e399bfa"
+  integrity sha512-hLcAvEkRjfVkNtkaRf2QEtTTrcQm6nMxei0vazZg7IfodLR8dXNbfZt1J7NIWJs2KUOc20/WWQvDSAEEBialQA==
   dependencies:
     "@dword-design/depcheck-parser-sass" "^3.0.1"
     "@dword-design/functions" "^4.0.0"
     "@vitejs/plugin-vue" "^4.0.0"
-    depcheck-parser-vue "^3.0.0"
+    depcheck-parser-vue "^4.0.6"
     fs-extra "^11.0.0"
     load-pkg "^4.0.0"
     parse-packagejson-name "^1.0.1"
     pascal-case "^3.1.1"
     vite "^4.0.4"
+    vue "^3.3.4"
 
 "@dword-design/base-config-node@^1.6.0":
   version "1.11.14"
@@ -5038,10 +5039,10 @@ depcheck-parser-babel@^3.0.1:
     "@babel/core" "^7.7.7"
     fs-extra "^10.0.0"
 
-depcheck-parser-vue@^3.0.0:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/depcheck-parser-vue/-/depcheck-parser-vue-3.0.4.tgz#475ca2376dcb7e992147869b90e4efec57b365c3"
-  integrity sha512-Bpf+o6K3xQDMlg0DdABC+ZhxQvMgYjyVMUadDCCZIRyUMAOFP1L8VZNHFBLp+5uSsqwJPasyUzOs/yM6gfPnoQ==
+depcheck-parser-vue@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/depcheck-parser-vue/-/depcheck-parser-vue-4.0.6.tgz#0960ca4077246ba79e10bd7ce627ef3881a4bc12"
+  integrity sha512-im6SAJZHtGAmaHf+RMd9OhD3yrHUfCGEKZG5WhAiBoaPwctY0nqMkrNzzyjQFScYW8SPFNITJZ2pz0CfJ5VpUQ==
   dependencies:
     "@babel/core" "^7.10.3"
     "@dword-design/functions" "^4.0.0"
@@ -8992,14 +8993,7 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
-  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
-  dependencies:
-    find-pkg "^2.0.0"
-
-"load-pkg@npm:@dword-design/load-pkg":
+load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==
