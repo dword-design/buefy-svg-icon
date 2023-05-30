@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.0...v2.0.1) (2023-05-30)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base-config-component to v3 ([#63](https://github.com/dword-design/buefy-svg-icon/issues/63)) ([71b3072](https://github.com/dword-design/buefy-svg-icon/commit/71b3072b7757856ac026b31bb5c85a17ef40a645))
+
 # [2.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v1.0.38...v2.0.0) (2023-05-20)
 
 
