@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.1...v2.0.2) (2023-05-30)
+
+
+### Bug Fixes
+
+* fix exports ([aa22a8a](https://github.com/dword-design/buefy-svg-icon/commit/aa22a8a09ff6cd46aa4bdba359ec554da873019b))
+
 ## [2.0.1](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.0...v2.0.1) (2023-05-30)
 
 
