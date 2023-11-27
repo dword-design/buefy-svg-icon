@@ -33,7 +33,7 @@
     "@mdi/svg": "^7.1.96",
     "buefy": "npm:@dword-design/buefy",
     "depcheck-package-name": "^3.0.0",
-    "vite-svg-loader": "^4.0.0"
+    "vite-svg-loader": "^5.0.0"
   },
   "engines": {
     "node": ">=16"

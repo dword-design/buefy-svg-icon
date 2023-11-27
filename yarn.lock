@@ -3620,7 +3620,7 @@
     "@vue/compiler-core" "3.3.9"
     "@vue/shared" "3.3.9"
 
-"@vue/compiler-sfc@3.3.9", "@vue/compiler-sfc@^3.0.5", "@vue/compiler-sfc@^3.2.20", "@vue/compiler-sfc@^3.2.45", "@vue/compiler-sfc@^3.3.8":
+"@vue/compiler-sfc@3.3.9", "@vue/compiler-sfc@^3.0.5", "@vue/compiler-sfc@^3.2.45", "@vue/compiler-sfc@^3.3.8":
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.3.9.tgz#5900906baba1a90389200d81753ad0f7ceb98a83"
   integrity sha512-wy0CNc8z4ihoDzjASCOCsQuzW0A/HP27+0MDSSICMjVIFzk/rFViezkR3dzH+miS2NDEz8ywMdbjO5ylhOLI2A==
@@ -9808,14 +9808,7 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
-  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
-  dependencies:
-    find-pkg "^2.0.0"
-
-"load-pkg@npm:@dword-design/load-pkg":
+load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==
@@ -15018,12 +15011,11 @@ vite-plugin-vue-inspector@^4.0.0:
     kolorist "^1.8.0"
     magic-string "^0.30.4"
 
-vite-svg-loader@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-4.0.0.tgz#1cec4337dba3c23ab13bcabb111896e251b047ac"
-  integrity sha512-0MMf1yzzSYlV4MGePsLVAOqXsbF5IVxbn4EEzqRnWxTQl8BJg/cfwIzfQNmNQxZp5XXwd4kyRKF1LytuHZTnqA==
+vite-svg-loader@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-5.1.0.tgz#b0b89bd8024bc0f707d0e8d7422446ac01576d94"
+  integrity sha512-M/wqwtOEjgb956/+m5ZrYT/Iq6Hax0OakWbokj8+9PXOnB7b/4AxESHieEtnNEy7ZpjsjYW1/5nK8fATQMmRxw==
   dependencies:
-    "@vue/compiler-sfc" "^3.2.20"
     svgo "^3.0.2"
 
 "vite@^3.0.0 || ^4.0.0", vite@^4.0.4, vite@^4.5.0:
