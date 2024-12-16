@@ -1,9 +1,9 @@
 import { endent as javascript } from '@dword-design/functions';
 import tester from '@dword-design/tester';
 import testerPluginComponent from '@dword-design/tester-plugin-component';
-import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer';
 import packageName from 'depcheck-package-name';
 import { createRequire } from 'module';
+import { chromium } from 'playwright';
 
 const _require = createRequire(import.meta.url);
 
@@ -48,6 +48,14 @@ export default tester(
   },
   [
     testerPluginComponent({ componentPath: _require.resolve('./index.vue') }),
-    testerPluginPuppeteer(),
+    {
+      async after() {
+        await this.browser.close();
+      },
+      async before() {
+        this.browser = await chromium.launch();
+        this.page = await this.browser.newPage();
+      },
+    },
   ],
 );
