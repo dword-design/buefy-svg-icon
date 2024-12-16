@@ -1,11 +1,11 @@
-import { endent as javascript } from '@dword-design/functions'
-import tester from '@dword-design/tester'
-import testerPluginComponent from '@dword-design/tester-plugin-component'
-import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer'
-import packageName from 'depcheck-package-name'
-import { createRequire } from 'module'
+import { endent as javascript } from '@dword-design/functions';
+import tester from '@dword-design/tester';
+import testerPluginComponent from '@dword-design/tester-plugin-component';
+import packageName from 'depcheck-package-name';
+import { createRequire } from 'module';
+import { chromium } from 'playwright';
 
-const _require = createRequire(import.meta.url)
+const _require = createRequire(import.meta.url);
 
 export default tester(
   {
@@ -40,15 +40,22 @@ export default tester(
         </template>
       `,
       async test() {
-        await this.page.goto('http://localhost:3000')
-
-        const icon = await this.page.waitForSelector('.icon')
-        expect(await icon.screenshot()).toMatchImageSnapshot(this)
+        await this.page.goto('http://localhost:3000');
+        const icon = await this.page.waitForSelector('.icon');
+        expect(await icon.screenshot()).toMatchImageSnapshot(this);
       },
     },
   },
   [
     testerPluginComponent({ componentPath: _require.resolve('./index.vue') }),
-    testerPluginPuppeteer(),
+    {
+      async after() {
+        await this.browser.close();
+      },
+      async before() {
+        this.browser = await chromium.launch();
+        this.page = await this.browser.newPage();
+      },
+    },
   ],
-)
+);
