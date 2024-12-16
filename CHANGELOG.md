@@ -1,3 +1,20 @@
+# [3.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.2...v3.0.0) (2024-12-16)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#74](https://github.com/dword-design/buefy-svg-icon/issues/74)) ([570c99b](https://github.com/dword-design/buefy-svg-icon/commit/570c99b665572e47cf867b6ec26478c989d2f977))
+
+
+### Features
+
+* support svg icons ([ffbdc6b](https://github.com/dword-design/buefy-svg-icon/commit/ffbdc6b8d84e19649a6015154c9a4ed8066ed98a))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 ## [2.0.2](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.1...v2.0.2) (2023-05-30)
 
 
