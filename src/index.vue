@@ -11,6 +11,7 @@ export default {
           .replace(/-./g, x => x.toUpperCase()[1])
           .replace(/\b\w/g, c => c.toUpperCase())}Icon`;
       }
+
       return this.icon[1];
     },
   },
