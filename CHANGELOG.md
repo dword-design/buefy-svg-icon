@@ -1,3 +1,17 @@
+# [4.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v3.0.0...v4.0.0) (2025-08-01)
+
+
+### Bug Fixes
+
+* foo ([1de5687](https://github.com/dword-design/buefy-svg-icon/commit/1de5687058be484f8fa3452d896bdf7f221804cc))
+* husky hooks ([7b667cc](https://github.com/dword-design/buefy-svg-icon/commit/7b667ccee76fcb79dc8c6fb6b79af32f57674c0a))
+* lock file maintenance ([#89](https://github.com/dword-design/buefy-svg-icon/issues/89)) ([21e0fab](https://github.com/dword-design/buefy-svg-icon/commit/21e0fabe4a41b5ae4012b7230c76265a1a0dd274))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
 # [3.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v2.0.2...v3.0.0) (2024-12-16)
 
 
