@@ -6,6 +6,14 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.esm.js",
+        "types": "./dist/entry.d.ts"
+      }
+    }
+  },
   "main": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",
   "browser": "dist/index.min.js",
@@ -50,11 +58,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  ".": {
-    "import": {
-      "default": "./dist/index.esm.js",
-      "types": "./dist/entry.d.ts"
-    }
   }
 }
