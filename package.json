@@ -6,7 +6,6 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
-  "exports": "./dist/index.esm.js",
   "main": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",
   "browser": "dist/index.min.js",
@@ -14,6 +13,7 @@
     "dist"
   ],
   "scripts": {
+    "build": "base build",
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "depcheck": "base depcheck",
@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "@dword-design/base": "^15.2.4",
-    "@dword-design/base-config-component": "^6.0.0",
+    "@dword-design/base-config-component": "^6.0.3",
     "@mdi/svg": "^7.4.47",
-    "@playwright/browser-chromium": "^1.54.1",
+    "@playwright/browser-chromium": "^1.54.2",
     "@playwright/test": "^1.54.2",
     "buefy": "npm:@dword-design/buefy-next-fork@^0.1.0",
     "depcheck-package-name": "^4.0.0",
@@ -50,5 +50,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  ".": {
+    "import": {
+      "default": "./dist/index.esm.js",
+      "types": "./dist/entry.d.ts"
+    }
   }
 }

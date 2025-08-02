@@ -27,7 +27,8 @@
     "dist": true,
     "eslint.config.ts": true,
     "node_modules": true,
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+    "vite.config.ts": true
   },
   "workbench.editor.enablePreview": false
 }
