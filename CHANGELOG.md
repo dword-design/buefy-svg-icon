@@ -1,3 +1,11 @@
+## [4.0.2](https://github.com/dword-design/buefy-svg-icon/compare/v4.0.1...v4.0.2) (2025-08-02)
+
+
+### Bug Fixes
+
+* foo ([fa02af5](https://github.com/dword-design/buefy-svg-icon/commit/fa02af565c190c441eacf47e93b590cf34813adf))
+* update config files ([ef24578](https://github.com/dword-design/buefy-svg-icon/commit/ef245785af0344a7e60b5b998e9100c946b26423))
+
 ## [4.0.1](https://github.com/dword-design/buefy-svg-icon/compare/v4.0.0...v4.0.1) (2025-08-02)
 
 
