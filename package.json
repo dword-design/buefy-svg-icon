@@ -39,7 +39,7 @@
     "@playwright/browser-chromium": "^1.54.2",
     "@playwright/test": "^1.54.2",
     "buefy": "npm:@dword-design/buefy-next-fork@^0.1.0",
-    "depcheck-package-name": "^4.0.0",
+    "depcheck-package-name": "^5.0.0",
     "endent": "npm:@dword-design/endent@^1.4.7",
     "execa": "^9.6.0",
     "get-port": "^7.1.0",
