@@ -46,7 +46,7 @@
     "nuxt": "3.17.7",
     "nuxt-dev-ready": "^5.0.1",
     "output-files": "^3.0.0",
-    "tree-kill-promise": "^4.0.0",
+    "tree-kill-promise": "^5.0.0",
     "vite-svg-loader": "^5.1.0"
   },
   "peerDependencies": {
