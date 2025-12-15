@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/dword-design/buefy-svg-icon/compare/v4.0.2...v5.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#114](https://github.com/dword-design/buefy-svg-icon/issues/114)) ([8e8d583](https://github.com/dword-design/buefy-svg-icon/commit/8e8d58398c846dbf5a2e7c37032e79655dd6fa44))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [4.0.2](https://github.com/dword-design/buefy-svg-icon/compare/v4.0.1...v4.0.2) (2025-08-02)
 
 
