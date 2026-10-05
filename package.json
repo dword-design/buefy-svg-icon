@@ -44,7 +44,7 @@
     "execa": "^9.6.1",
     "get-port": "^7.1.0",
     "nuxt": "4.2.2",
-    "nuxt-dev-ready": "^5.0.1",
+    "nuxt-dev-ready": "^6.0.0",
     "output-files": "^3.0.0",
     "tree-kill-promise": "^5.0.0",
     "vite-svg-loader": "^5.1.0"
