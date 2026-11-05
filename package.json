@@ -38,7 +38,7 @@
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.57.0",
     "@playwright/test": "^1.57.0",
-    "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
+    "buefy": "npm:@dword-design/buefy-fork@^2.0.0",
     "depcheck-package-name": "^5.0.0",
     "endent": "npm:@dword-design/endent@^1.4.7",
     "execa": "^9.6.1",
